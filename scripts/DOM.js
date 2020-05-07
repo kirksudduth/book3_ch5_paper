@@ -41,4 +41,4 @@ document
             `;
     }
   });
-export default { businessArray, zip, outEl };
+export default outEl;
