@@ -1,3 +1,5 @@
+console.log("Chase paper");
+
 const businesses = [
   {
     purchasingAgent: { nameLast: "Kirlin", nameFirst: "Kristy" },
@@ -110,3 +112,5 @@ const businesses = [
     addressCity: "Watrous",
   },
 ];
+
+export default businesses;
