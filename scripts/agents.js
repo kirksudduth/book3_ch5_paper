@@ -1,6 +1,6 @@
 import businesses from "./businesses.js";
-import outEl from "./DOM.js";
-outEl.innerHTML += "<h1>Purchasing Agents</h1>";
+const outAgentEl = document.querySelector("#output_agent");
+outAgentEl.innerHTML += "<h1>Purchasing Agents</h1>";
 
 /*
     Using map(), you extract the purchasing agent object
@@ -20,7 +20,7 @@ agents.forEach((agent) => {
   outEl.innerHTML += `<h2>${agent.fullName.nameFirst} ${agent.fullName.nameLast}</h2>
   <h3>${agent.company}</h3>
   <h4>${agent.phoneNumber}</h4>`;
-  outEl.innerHTML += "<hr/>";
+  outAgentEl.innerHTML += "<hr/>";
 });
 
 export default agents;
